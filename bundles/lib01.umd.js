@@ -6,6 +6,7 @@
 
 var PublicComponent = /** @class */ (function () {
     function PublicComponent() {
+        this.message = 'Public rocks!!';
     }
     /**
      * @return {?}
@@ -17,7 +18,7 @@ var PublicComponent = /** @class */ (function () {
 PublicComponent.decorators = [
     { type: core.Component, args: [{
                 selector: 'app-public',
-                template: "\n    <h1>public works!</h1>\n  ",
+                template: "\n    <h1>{{message}}</h1>\n  ",
                 styles: ["\n    h1 {\n        color: red;\n    }\n  "]
             },] },
 ];

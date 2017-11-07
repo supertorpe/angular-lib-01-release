@@ -3,7 +3,9 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 class PublicComponent {
-    constructor() { }
+    constructor() {
+        this.message = 'Public rocks!!';
+    }
     /**
      * @return {?}
      */
@@ -14,7 +16,7 @@ PublicComponent.decorators = [
     { type: Component, args: [{
                 selector: 'app-public',
                 template: `
-    <h1>public works!</h1>
+    <h1>{{message}}</h1>
   `,
                 styles: [`
     h1 {
