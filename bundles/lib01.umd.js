@@ -19,7 +19,7 @@ PublicComponent.decorators = [
     { type: core.Component, args: [{
                 selector: 'app-public',
                 template: "\n    <h1>{{message}}</h1>\n  ",
-                styles: ["\n    h1 {\n        color: red;\n    }\n  "]
+                styles: ["\n    h1 {\n      color: blue; }\n  "]
             },] },
 ];
 /**

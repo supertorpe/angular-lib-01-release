@@ -20,8 +20,7 @@ PublicComponent.decorators = [
   `,
                 styles: [`
     h1 {
-        color: red;
-    }
+      color: blue; }
   `]
             },] },
 ];
